@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <!-- HEADER NAV -->
+            <div class="header-nav">
+                <a href="#!" class="logo">Kelvin</a>
+                <nav id="nav" class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#main" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Work</a></li>
+                        <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="#main" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contact</a></li>
+                    </ul>
+                    <button id="nav-btn" class="nav-button">
+                        <img id="nav-btn-img" src="./images/icons/nav-open.svg" alt="nav button">
+                    </button>
+                </nav>
+            </div>
+
+            <!-- HEADER CONTENT -->
+            <div id="main" class="header-row">
+                <div class="header-content" data-aos="zoom-in-right">
+                    <h1 class="header-heading">Kelvin Kramer <br> <span>Designer & Developer</span></h1>
+                    I’m a portrait, fashion and lifestyle photographer living In New York City. During my thirteen 
+                    year tenure here.
+                </div>
+                <div class="header-img" data-aos="zoom-in-right">
+
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="./images/header/hero-mobile.png">
+                        <img src="./images/header/hero.png" alt="">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SERVICES -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="services-row" data-aos="zoom-in-right">
+                <div class="service-card">
+                    <img class="service-card-img" src="./images/services/01.svg" alt="">
+                    <h3 class="service-card-title">UI/UX Design</h3>
+                    Our design is translated into comprehensive digital environments built on latest development standards.
+                </div>
+                <div class="service-card">
+                    <img class="service-card-img" src="./images/services/02.svg" alt="">
+                    <h3 class="service-card-title">Development</h3>
+                    Our design is translated into comprehensive digital environments built on latest development standards.
+                </div>
+                <div class="service-card">
+                    <img class="service-card-img" src="./images/services/03.svg" alt="">
+                    <h3 class="service-card-title">Software Testing</h3>
+                    Our design is translated into comprehensive digital environments built on latest development standards.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio-title">
+                <h2 class="title1">Portfolio</h2>
+            </div>
+            <div class="project">
+                <img src="./images/portfolio/01.jpg" alt="" class="project-img" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <h3 class="project-title"><a href="">Online fashion store - Homepage</a></h3>
+            </div>      
+
+            <div class="project">
+                <img src="./images/portfolio/02.jpg" alt="" class="project-img" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <h3 class="project-title"><a href="">Reebok Store - Concept</a></h3>
+            </div>      
+
+            <div class="project">
+                <img src="./images/portfolio/03.jpg" alt="" class="project-img" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <h3 class="project-title"><a href="">Braun Landing Page - Concept</a></h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTS -->
+    <footer id="contacts" class="contacts">
+        <div class="container" data-aos="fade-up" data-aos-duration="3000">
+            <div class="contacts-title">
+                <h2 class="title1">Contacts</h2>
+            </div>
+            <div class="contacts-content">
+                <p>Want to know more or just chat?<br> You are welcome!</p>
+            </div>
+            <div class="contacts-button">
+                <a href="" class="btn">Send Message</a>
+            </div>
+            <div class="contacts-social">
+                <a href="#!"><img src="./images/socials/LinkedIn.svg" alt="LinkedIn"></a>
+                <a href="#!"><img src="./images/socials/Instargam.svg"alt="Instagram"></a>
+                <a href="#!"><img src="./images/socials/Dribble.svg" alt="Dribble"></a>
+                <a href="#!"><img src="./images/socials/Behance.svg" alt="Behance"></a>
+            </div>
+            <div class="contacts-footer">
+                <p>Like me on<br> LinkedIn, Instagram, Behance, Dribble</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
